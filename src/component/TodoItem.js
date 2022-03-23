@@ -1,7 +1,6 @@
 import React,{useState, useContext}  from 'react';
 import { TodoContext } from '../App';
 import { Card, Button} from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { ItemContext } from './TodoList';
 
 

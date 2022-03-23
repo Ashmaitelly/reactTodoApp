@@ -14,7 +14,7 @@ export function TodoList() {
     `
     There ${(todos[0].length === 1) ? 'is': 'are'} ${todos[0].length} remaining task${(todos[0].length === 1) ? '': 's'} 
     `;
-  });
+  },[todos[0]]);
 
   return (
    
